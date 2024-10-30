@@ -8,6 +8,7 @@ const routes = [
     { path: '/majorityElement', component: () => import('@/views/majorityElement.vue') },
     { path: '/rotate', component: () => import('@/views/rotate.vue') },
     { path: '/maxProfit', component: () => import('@/views/maxProfit.vue') },
+    { path: '/maxProfit2', component: () => import('@/views/maxProfit2.vue') },
 ]
 
 // 3.创建路由实例
