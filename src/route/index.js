@@ -6,7 +6,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 const routes = [
     { path: '/removeDuplicates', component: () => import('@/views/removeDuplicates.vue') },
     { path: '/majorityElement', component: () => import('@/views/majorityElement.vue') },
-    { path: '/rotate', component: () => import('@/views/rotate.vue') }
+    { path: '/rotate', component: () => import('@/views/rotate.vue') },
+    { path: '/maxProfit', component: () => import('@/views/maxProfit.vue') },
 ]
 
 // 3.创建路由实例
